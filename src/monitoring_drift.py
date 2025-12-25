@@ -55,7 +55,7 @@ def main() -> None:
     production_mode = "drift"  # change to "nodrift" to compare
     production = make_production_data(reference=reference, mode=production_mode)
 
-    # Evidently drift report (Evidently 0.7.x)
+    # Evidently drift report
     report = Report([DataDriftPreset()])
 
     out_dir = Path("reports")

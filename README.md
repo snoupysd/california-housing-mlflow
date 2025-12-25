@@ -1,7 +1,4 @@
-Parfait. Voici un **README.md complet, propre, et “niveau GitHub”**, prêt à être copié-collé tel quel à la racine de ton repo.
-Il couvre **tous les livrables 1 → 6** et explique **comment tout relancer**.
 
----
 
 ```markdown
 # California Housing – End-to-End MLOps Project

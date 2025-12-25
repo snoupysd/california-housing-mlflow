@@ -6,7 +6,7 @@ authors = [
     {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4.0"
 dependencies = [
     "numpy (<2.4)",
     "pandas (>=2.3.3,<3.0.0)",
@@ -19,7 +19,8 @@ dependencies = [
     "pydantic (>=2)",
     "requests (>=2.32.5,<3.0.0)",
     "streamlit (>=1.52.2,<2.0.0)",
-    "joblib (>=1.5.3,<2.0.0)"
+    "joblib (>=1.5.3,<2.0.0)",
+    "evidently (>=0.7.18,<0.8.0)"
 ]
 
 [tool.poetry]

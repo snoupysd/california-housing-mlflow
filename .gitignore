@@ -1,0 +1,34 @@
+#  Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement virtuel
+.venv/
+venv/
+
+#  MLflow
+mlruns/
+mlflow.db
+*.sqlite
+*.db
+
+#  Modèles / artefacts
+model.joblib
+*.pkl
+
+
+
+
+
+# Docker
+*.tar
+
+# IDE
+.idea/
+.vscode/
+
+#  OS
+.DS_Store
+Thumbs.db
